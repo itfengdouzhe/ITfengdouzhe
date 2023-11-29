@@ -5,6 +5,6 @@ export const goodNewOnEmployment = arraySidebar([
     {
         text: "就业喜报",
         link: "readme",
-        icon: "icon",
+        icon: "contract",
     }
 ]);

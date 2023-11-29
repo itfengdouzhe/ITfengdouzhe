@@ -4,24 +4,20 @@ import {hopeTheme} from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar/index.js";
-
 // @ts-ignore
 const __dirname = getDirname(import.meta.url);
-
 export default hopeTheme({
     hostname: "https://www.javatiaocao.com/",
-    //首页图标
+    //首页图标  //at.alicdn.com/t/c/font_4347767_kcbzmb1qs4r.css
     logo: "https://javatiaozaowang.obs.cn-east-3.myhuaweicloud.com/IT%E6%9E%AB%E6%96%97%E8%80%85_%E7%94%BB%E6%9D%BF%201.png",
     favicon: "/favicon.ico",
-    iconAssets: "//at.alicdn.com/t/c/font_4347767_m79fyktm7la.css",
+    iconAssets: "//at.alicdn.com/t/c/font_4351439_0z20ngyjzsi.css",
     author: {
         name: "IT枫斗者",
         url: "https://www.zhihu.com/people/fu-chan-ke-chen-zhu-ren",
     },
-
     repo: "https://github.com/itfengdouzhe/ITfengdouzhe",
     docsDir: "docs",
-
     pure: true,
     breadcrumb: false,
     navbar,
@@ -29,7 +25,6 @@ export default hopeTheme({
     footer:
         '<a href="https://beian.miit.gov.cn/" target="_blank">ICP-2021008530号</a>',
     displayFooter: true,
-
     pageInfo: [
         "Author",
         "Category",
@@ -39,7 +34,6 @@ export default hopeTheme({
         "Word",
         "ReadingTime",
     ],
-
     plugins: {
         blog: true,
 

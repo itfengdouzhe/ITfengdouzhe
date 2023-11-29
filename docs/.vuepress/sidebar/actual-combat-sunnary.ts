@@ -5,11 +5,11 @@ export const actualCombatSummary = arraySidebar([
     {
         text: "面经总结",
         link: "face-summary",
-        icon: "book",
+        icon: "wendaguanli",
     },
     {
         text: "实战录音",
         link: "field-recording",
-        icon: "project",
+        icon: "21baogaozongjiezhuanqu",
     },
 ]);

@@ -5,6 +5,6 @@ export const algorithmLearning = arraySidebar([
     {
         text: "算法练习",
         link: "readme",
-        icon: "book",
+        icon: "suanfa",
     },
 ]);

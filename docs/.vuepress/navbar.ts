@@ -4,12 +4,17 @@ import {navbar} from "vuepress-theme-hope";
 export default navbar([
     {
         text: "offer训练营",
-        icon: "tubiaozhizuomoban",
+        icon: "juzhong1",
         link: "/home.md"
     },
     {
+        text: "Java知识锦囊",
+        icon: "java",
+        link: "/java-knowledge-kit/"
+    },
+    {
         text: "实战总结",
-        icon: "zongjie",
+        icon: "21baogaozongjiezhuanqu",
         link: "/actual-combat-summary/"
     },
     {
