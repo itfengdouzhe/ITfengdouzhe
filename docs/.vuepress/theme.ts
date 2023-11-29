@@ -19,7 +19,7 @@ export default hopeTheme({
         url: "https://www.zhihu.com/people/fu-chan-ke-chen-zhu-ren",
     },
 
-    repo: "https://github.com/itfengdouzhe/myblogcode/tree/main",
+    repo: "https://github.com/itfengdouzhe/ITfengdouzhe",
     docsDir: "docs",
 
     pure: true,
